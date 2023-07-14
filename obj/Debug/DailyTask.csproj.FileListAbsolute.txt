@@ -1,0 +1,8 @@
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\bin\Debug\DailyTask.exe.config
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\bin\Debug\DailyTask.exe
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\bin\Debug\DailyTask.pdb
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\obj\Debug\DailyTask.csproj.AssemblyReference.cache
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\obj\Debug\DailyTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\obj\Debug\DailyTask.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\obj\Debug\DailyTask.exe
+C:\Users\user\Documents\training\Day-1\DailyTask\DailyTask\obj\Debug\DailyTask.pdb
