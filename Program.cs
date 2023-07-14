@@ -7,28 +7,32 @@ namespace DailyTask
     {
         static void Main(string[] args)
         {
-            ArrayList fruitsList = new ArrayList();
-            fruitsList.Add("apple");
-            fruitsList.Add("banana");
-            fruitsList.Add("cherry");
-            fruitsList.Add("date");
-            fruitsList.Add("elderberry");
+            ArrayList list1 = new ArrayList();
+            list1.Add("apple");
+            list1.Add("banana");
+            list1.Add("cherry");
+            list1.Add("date");
+            list1.Add("elderberry");
 
-            Console.WriteLine("Total number of elements in the fruitsList are: " + fruitsList.Count);
+            Console.WriteLine("Total number of elements in the list1 are: " + list1.Count);
 
-            Console.WriteLine("Printing elements in the ArrayList:");
-            PrintList(fruitsList);
+            Console.WriteLine("List");
+            PrintList(list1);
 
-            Console.WriteLine("Removing an item from the ArrayList:");
-            RemoveItem(fruitsList, "banana");
-            PrintList(fruitsList);
+            
+            Console.WriteLine("Removing banana from list");
+            RemoveItem(list1, "banana");
+            Console.WriteLine("Updated List\n");
+            PrintList(list1);
 
-            Console.WriteLine("Inserting an item into the ArrayList:");
-            InsertItem(fruitsList, 2, "grape");
-            PrintList(fruitsList);
+            Console.WriteLine("Inserting grape in list");
+            InsertItem(list1, 2, "grape");
+            Console.WriteLine("Updated List\n");
 
-            Console.WriteLine("Searching for an item in the ArrayList:");
-            SearchItem(fruitsList, "cherry");
+            PrintList(list1);
+
+            Console.WriteLine("Searching for cherry in list:");
+            SearchItem(list1, "cherry");
         }
 
         static void PrintList(ArrayList list)
@@ -37,7 +41,7 @@ namespace DailyTask
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
         }
 
         static void RemoveItem(ArrayList list, string item)
@@ -51,7 +55,7 @@ namespace DailyTask
             {
                 Console.WriteLine("Item " + item + " not found.");
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
         }
 
         static void InsertItem(ArrayList list, int index, string item)
@@ -65,7 +69,7 @@ namespace DailyTask
             {
                 Console.WriteLine("Invalid index");
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
         }
 
         static void SearchItem(ArrayList list, string item)
@@ -79,7 +83,7 @@ namespace DailyTask
             {
                 Console.WriteLine("Item not found");
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
             Console.ReadKey();
         }
         
